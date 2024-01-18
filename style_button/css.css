@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.ImMsqPHQRcsvqAOXnNPTgQHaEc?w=1280&h=768&rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+div{
+    border: 3px solid rgb(211, 21, 68);
+    width: 500px;
+    margin: 34px 310px;
+    padding:34px;
+    background-color: rgb(224, 249, 217);
+    border-radius: 20px;
+}
+#main_heading{
+color: black;
+margin: 0px 210px;
+
+}
+button{
+    margin: 0px 8px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+}
+a{
+    background-color: red;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+   
+}
+a:hover{
+    color: rgb(216, 193, 193);
+    border: 2px solid black;
+}
+a:visited{
+    background-color: yellowgreen;
+
+}
+button:hover{
+    color: rgb(216, 193, 193);
+    border: 2px solid black;
+}
