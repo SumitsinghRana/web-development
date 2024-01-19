@@ -1,0 +1,37 @@
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 10px;
+   
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+
+}
+.search{
+    float: right;
+    padding: 12px 60px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px ;
+    width: 170px;
+}
+.navbar li a:hover{
+    color: yellowgreen;
+}
+body{
+    background-image: url(https://static3.toyotabharat.com/images/homepage/banners/lc-300-home-banner-1920x807.jpg?v=16012024);
+    background-size:cover ;
+}
