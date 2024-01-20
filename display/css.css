@@ -1,0 +1,31 @@
+header {
+  width: 900px;
+  margin: auto;
+}
+img {
+  height: 80px;
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+.divesion {
+  background-color: grey;
+  margin: 4px;
+  padding: 20px;
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+body {
+  background-image: url(https://th.bing.com/th/id/OIP.XfOesAUraq9rWTRSPTxKBAHaE4?rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
