@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eat N Repeat</title>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="icon" href="img/logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <a href="#">
+          <img src="img/logo.png" alt="" />
+          <div>EAT N REPEAT</div>
+        </a>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a href="#">Contact Us</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Fill the detail's to book a table</h2>
+      <form action="nothing.php">
+        <div class="forms">
+          <input type="text" placeholder="Enter your name" />
+        </div>
+        <br />
+        <div class="forms">
+          Enter location for reservation
+          <br />
+          <select name="place" class="option">
+            <option value="">Nanital</option>
+            <option value="">Almora</option>
+            <option value="">Shimla</option>
+            <option value="">Delhi</option>
+            <option value="">Deharadun</option>
+            <option value="">Mumbai</option>
+            <option value="">Hydrebad</option>
+            <option value="">Pune</option>
+            <option value="">Chennai</option>
+          </select>
+        </div>
+        <br />
+        <div class="forms">
+          How many people's
+          <br />
+          <select name="peoples" class="option">
+            <option value="1">1 people</option>
+            <option value="2">2 people's</option>
+            <option value="3">3 people's</option>
+            <option value="4">4 people's</option>
+            <option value="5">5 people's</option>
+            <option value="6">6 people's</option>
+            <option value="7">7 people's</option>
+            <option value="8">8 people's</option>
+          </select>
+        </div>
+        <br />
+        <div class="forms">
+          Date,time for booking
+          <br />
+          <input type="date" />
+          <input type="time" />
+        </div>
+        <br />
+        <div class="forms">
+          Enter Your Number
+          <br />
+          <input type="number" />
+        </div>
+        <br />
+        <input class="button" type="submit" />
+        <input class="button" type="reset" />
+      </form>
+      <br />
+      For more details go to-><a href="#" id="link">link</a>
+    </div>
+  </body>
+</html>
